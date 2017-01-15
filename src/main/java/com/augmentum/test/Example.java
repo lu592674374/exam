@@ -10,10 +10,14 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
+@SpringBootApplication
 public class Example {
 
     @RequestMapping("/")
     String home() {
+        System.out.printf("hhhhhh");
+        System.out.printf("ssssss");
+        System.out.printf("ssssss");
         return "Hello World!";
     }
 
